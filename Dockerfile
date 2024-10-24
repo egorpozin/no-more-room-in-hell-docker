@@ -29,6 +29,6 @@ EXPOSE 26901/udp
 
 ADD ./entrypoint.sh entrypoint.sh
 
-RUN ln -s /home/steam/linux32/ /home/steam/.steam/sdk32
+RUN ln -s /home/steam/linux64/ /home/steam/.steam/sdk64
 
 CMD ./entrypoint.sh
